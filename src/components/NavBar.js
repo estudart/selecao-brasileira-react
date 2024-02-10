@@ -1,17 +1,14 @@
 export default function NavBar() {
   return (
     <nav
-      className="navbar navbar-expand-md navbar-dark"
+      className="navbar navbar-expand-md navbar-light bg-light"
       style={{
         backgroundColor: "black",
-        border: "1px solid white",
+        border: "1px solid #282c34",
         borderTop: "0px",
       }}
     >
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Fixed navbar
-        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -25,6 +22,16 @@ export default function NavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <ul className="navbar-nav me-auto mb-2 mb-md-0">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                <img
+                  className="home-page-container_1--icon"
+                  style={{ height: "30px", width: "auto" }}
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Brazilian_Football_Confederation_logo.svg/1200px-Brazilian_Football_Confederation_logo.svg.png"
+                  alt="Brazil Icon"
+                />
+              </a>
+            </li>
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
                 Home
