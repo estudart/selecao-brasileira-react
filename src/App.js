@@ -22,7 +22,10 @@ export default function App() {
             src="https://s.glbimg.com/es/ge/f/300x230/2010/06/06/cafu_tacafifa3_get_300.jpg"
             alt="Brazil Icon"
           />
-          <p className="home-page-container_1--text">
+          <p
+            className="home-page-container_1--text"
+            style={{ marginTop: "0px" }}
+          >
             A história da Copa do Mundo de 2002 é repleta de momentos memoráveis
             e emocionantes. Realizada no Japão e Coreia do Sul, esta edição do
             torneio foi marcada por surpresas, reviravoltas e conquistas
