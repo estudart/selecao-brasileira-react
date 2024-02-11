@@ -55,7 +55,7 @@
 }
 
 .home-page-title--image {
-  height: 50px;
+  height: 5rem;
   position: relative;
   right: 1.5%;
 }
@@ -89,11 +89,11 @@
   padding: 0px;
   width: 170px;
   background-color: aliceblue;
-  box-shadow: 2px 2px 3px yellow;
+  box-shadow: 2px 2px 3px rgb(37, 37, 182);
 }
 
 .home-page-container_1--image:hover {
-  box-shadow: 1px 1px 3px rgb(37, 37, 182);
+  box-shadow: 2px 2px 3px yellow;
 }
 
 .home-page-container_1--text {
@@ -107,7 +107,7 @@
   color: rgb(69, 69, 206);
   /*color: rgb(179, 153, 6);*/
   font-weight: bolder;
-  text-shadow: 1px 1px 0 yellow;
+  text-shadow: 0.2rem 0.2rem 0 yellow;
   margin: 2% 0% 2% 0%;
 }
 

@@ -13,7 +13,7 @@ export default function App() {
             src="https://images.yampi.me/assets/stores/poupeimagazine/uploads/images/taca-da-copa-do-mundo-de-2022-27cm-560g-6320ed45e4160-large.png"
             alt="taca da copa"
           />
-          Copa do mundo
+          Copa &nbsp;2002
         </h1>
         <YoutubeEmbed embedId="uED_3a38DPg" />
         <div className="home-page-container_1">
