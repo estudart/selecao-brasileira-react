@@ -13,19 +13,16 @@ export default function App() {
             src="https://images.yampi.me/assets/stores/poupeimagazine/uploads/images/taca-da-copa-do-mundo-de-2022-27cm-560g-6320ed45e4160-large.png"
             alt="taca da copa"
           />
-          Copa do Mundo 2002
+          Copa do mundo
         </h1>
         <YoutubeEmbed embedId="uED_3a38DPg" />
         <div className="home-page-container_1">
           <img
-            className="home-page-container_1--icon"
+            className="home-page-container_1--image"
             src="https://s.glbimg.com/es/ge/f/300x230/2010/06/06/cafu_tacafifa3_get_300.jpg"
             alt="Brazil Icon"
           />
-          <p
-            className="home-page-container_1--text"
-            style={{ marginTop: "0px" }}
-          >
+          <p className="home-page-container_1--text">
             A história da Copa do Mundo de 2002 é repleta de momentos memoráveis
             e emocionantes. Realizada no Japão e Coreia do Sul, esta edição do
             torneio foi marcada por surpresas, reviravoltas e conquistas
@@ -36,7 +33,7 @@ export default function App() {
             de fãs e jogadores e mostrando o poder unificador do esporte.
           </p>
         </div>
-        <div className="home-page-container_1">
+        <div className="home-page-container_2">
           <p className="home-page-container_1--text">
             A Copa do Mundo de 2002 exibiu um futebol emocionante e de alto
             nível. Com craques como Ronaldo e Ronaldinho brilhando nos gramados
@@ -48,7 +45,7 @@ export default function App() {
             melhores jogadores do planeta.
           </p>
           <img
-            className="home-page-container_1--icon"
+            className="home-page-container_1--image"
             src="https://i.pinimg.com/736x/99/ff/01/99ff014423d77758ad030a5517a0f8a8.jpg"
             alt="Ronaldinho e Ronaldinho"
           />
