@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function NavBar() {
   return (
     <nav
@@ -32,33 +34,19 @@ export default function NavBar() {
                 />
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled" aria-disabled="true">
-                Disabled
-              </a>
-            </li>
+            <Link to={`/`} className="nav-link">
+              <li className="nav-item">Home</li>
+            </Link>
+            <Link to={`/`} className="nav-link">
+              <li className="nav-item">Estatisticas</li>
+            </Link>
+            <Link to={`/`} className="nav-link">
+              <li className="nav-item">Estadios</li>
+            </Link>
+            <Link to={`/`} className="nav-link">
+              <li className="nav-item">Curiosidades</li>
+            </Link>
           </ul>
-          <form className="d-flex" role="search">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
