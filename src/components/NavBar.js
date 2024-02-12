@@ -37,13 +37,13 @@ export default function NavBar() {
             <Link to={`/`} className="nav-link">
               <li className="nav-item">Home</li>
             </Link>
-            <Link to={`/`} className="nav-link">
+            <Link to={`/estatisticas`} className="nav-link">
               <li className="nav-item">Estatisticas</li>
             </Link>
-            <Link to={`/`} className="nav-link">
+            <Link to={`/estadios`} className="nav-link">
               <li className="nav-item">Estadios</li>
             </Link>
-            <Link to={`/`} className="nav-link">
+            <Link to={`/curiosidades`} className="nav-link">
               <li className="nav-item">Curiosidades</li>
             </Link>
           </ul>

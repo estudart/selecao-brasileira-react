@@ -1,6 +1,9 @@
 import "./App.css";
 
 import Home from "./pages/Home";
+import Estadio from "./pages/Estadio";
+import Estatistica from "./pages/Estatistica";
+import Curiosidade from "./pages/Curiosidade";
 
 import NavBar from "./components/NavBar";
 
@@ -12,6 +15,9 @@ export default function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/estadios" element={<Estadio />}></Route>
+        <Route path="/estatisticas" element={<Estatistica />}></Route>
+        <Route path="/curiosidades" element={<Curiosidade />}></Route>
       </Routes>
     </BrowserRouter>
   );

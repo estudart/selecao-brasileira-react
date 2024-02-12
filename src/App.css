@@ -123,3 +123,23 @@
   font-family: "Bebas Neue", sans-serif;
   color: rgb(69, 69, 206);
 }
+
+.campo-jodagores {
+  background-image: url("../src/images/campo.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 60%;
+}
+
+.campo-jodagores__1 {
+  display: grid;
+  grid-template-columns: 100px;
+  grid-template-rows: 200px;
+}
+
+.campo-jodagores__2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 140px;
+}
