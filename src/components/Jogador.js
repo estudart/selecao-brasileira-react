@@ -1,10 +1,10 @@
-export default function Jogador({ nome, jogadorData, loading }) {
+export default function Jogador({ nome, jogadorData }) {
   return (
     <div>
       {jogadorData ? (
-        <div>
+        <div style={{ color: "white" }}>
           <img
-            style={{ width: "20px", borderRadius: "50%" }}
+            style={{ width: "30px", borderRadius: "50%" }}
             src={`${
               jogadorData.find((jogador) => jogador.nome === nome).imagem
             }`}
