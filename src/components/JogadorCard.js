@@ -1,3 +1,3 @@
 export default function JogadorCard() {
-  return <div>Olá</div>;
+  return <div style={{ flexGrow: "1" }}>Olá</div>;
 }

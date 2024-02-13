@@ -22,7 +22,13 @@ export default function Estatistica() {
   return (
     <div className="App">
       {loading && jogadorData ? (
-        <div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
           <Campo jogadorData={jogadorData} />
           <JogadorCard />
         </div>

@@ -17,7 +17,6 @@ export default function Campo({ jogadorData }) {
           <Jogador nome={"Ronaldinho"} jogadorData={jogadorData} />
         </div>
       </div>
-
       <div className="campo-jodagores__2">
         <div style={{ alignSelf: "center" }}>
           <Jogador nome={"Ronaldinho"} jogadorData={jogadorData} />
