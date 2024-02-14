@@ -17,6 +17,15 @@ export default function Estadio() {
 
   return (
     <div className="App">
+      <h1
+        className="home-page-title"
+        style={{
+          border: "0px",
+          padding: "2%",
+        }}
+      >
+        Estádios
+      </h1>
       {estadiosData ? (
         <div>
           {" "}
