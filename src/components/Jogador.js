@@ -1,8 +1,8 @@
-export default function Jogador({ nome, jogadorData }) {
+export default function Jogador({ nome, jogadorData, handleSelect }) {
   return (
     <div>
       {jogadorData ? (
-        <div style={{ color: "white" }}>
+        <div style={{ color: "white" }} onClick={() => handleSelect(nome)}>
           <img
             style={{ width: "30px", borderRadius: "50%" }}
             src={`${

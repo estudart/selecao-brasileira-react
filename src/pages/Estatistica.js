@@ -7,6 +7,11 @@ import axios from "axios";
 export default function Estatistica() {
   const [jogadorData, setJogadorData] = useState("");
   const [loading, setLoading] = useState(false);
+  const [selected, setSelected] = useState("Ronaldinho");
+
+  function handleSelect(selectname) {
+    setSelected(selectname);
+  }
 
   useEffect(() => {
     async function getData() {
@@ -29,8 +34,12 @@ export default function Estatistica() {
             alignItems: "center",
           }}
         >
-          <Campo jogadorData={jogadorData} />
-          <JogadorCard />
+          <Campo
+            jogadorData={jogadorData}
+            handleSelect={handleSelect}
+            selected={selected}
+          />
+          <JogadorCard jogadorData={jogadorData} selected={selected} />
         </div>
       ) : (
         <p>Loading...</p>
