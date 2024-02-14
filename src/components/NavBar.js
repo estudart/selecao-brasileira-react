@@ -25,14 +25,12 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <ul className="navbar-nav me-auto mb-2 mb-md-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                <img
-                  className="home-page-container_1--icon"
-                  style={{ height: "30px", width: "auto" }}
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Brazilian_Football_Confederation_logo.svg/1200px-Brazilian_Football_Confederation_logo.svg.png"
-                  alt="Brazil Icon"
-                />
-              </a>
+              <img
+                className="home-page-container_1--icon"
+                style={{ height: "30px", width: "auto" }}
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Brazilian_Football_Confederation_logo.svg/1200px-Brazilian_Football_Confederation_logo.svg.png"
+                alt="Brazil Icon"
+              />
             </li>
             <Link to={`/`} className="nav-link">
               <li className="nav-item">Home</li>
