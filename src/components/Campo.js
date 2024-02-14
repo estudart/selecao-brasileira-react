@@ -2,7 +2,14 @@ import Jogador from "../components/Jogador";
 
 export default function Campo({ jogadorData, handleSelect, selected }) {
   return (
-    <div className="campo-jodagores" style={{ border: "2px solid black" }}>
+    <div
+      className="campo-jodagores"
+      style={{
+        border: "2px solid black",
+        borderTop: "0px",
+        borderBottom: "0px",
+      }}
+    >
       <div style={{ padding: "50px" }}>
         <Jogador
           nome={"Ronaldinho"}
